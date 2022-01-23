@@ -5,7 +5,7 @@ set :rbenv_ruby, '2.7.2'
 set :stages, %w(production)
 set :default_stage, "production"
 
-set :application, "stock"
+set :application, "translate"
 set :repo_url, "https://github.com/Sediqwe/translate.git"
 set :branch, "master"
 set :deploy_to, "/var/www/translate"
