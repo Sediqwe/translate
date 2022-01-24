@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem 'csv'
 gem 'image_processing'  
-ruby '2.7.0'
+ruby '2.7.2'
 gem 'slim-rails'
 gem "font-awesome-rails"
 gem 'rubyzip'
