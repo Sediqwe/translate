@@ -4,7 +4,7 @@ set :rbenv_type, :user
 set :rbenv_ruby, '2.7.2'
 set :stages, %w(production)
 set :default_stage, "production"
-
+set :rvm_ruby_version, '2.7.2'
 set :application, "translate"
 set :repo_url, "https://github.com/Sediqwe/translate.git"
 set :branch, "master"
