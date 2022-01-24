@@ -49,8 +49,8 @@ group :development do
   gem 'capistrano'
   gem 'capistrano-rails'
   gem 'capistrano-passenger'
-  #gem 'capistrano-rbenv'
-  gem 'capistrano-rvm'
+  gem 'capistrano-rbenv'
+  #gem 'capistrano-rvm'
   gem 'pry-byebug'
   gem 'pry-rails'
 end

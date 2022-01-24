@@ -1,10 +1,10 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.16.0"
 set :rbenv_type, :user
-#set :rbenv_ruby, '2.7.2'
+set :rbenv_ruby, '2.7.2'
 set :stages, %w(production)
 set :default_stage, "production"
-set :rvm_ruby_version, '2.7.2'
+#set :rvm_ruby_version, '2.7.2'
 set :application, "translate"
 set :repo_url, "https://github.com/Sediqwe/translate.git"
 set :branch, "master"
