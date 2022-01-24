@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem 'csv'
 gem 'image_processing'  
-ruby '2.7.2'
+ruby '2.7.0'
 gem 'slim-rails'
 gem "font-awesome-rails"
 gem 'rubyzip'
@@ -38,7 +38,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
-group :development do
+group :development do 
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.2'
