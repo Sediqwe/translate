@@ -83,4 +83,11 @@ production:
   <<: *default
   database: fordito_production
   username: fordito
-  password: <%= ENV['FORDITO_DATABASE_PASSWORD'] %>
+   password: <%= Rails.application.credentials.database[:password] %>
+
+# SQLite. Versions 3.8.0 and up are supported.
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
+#
